@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="container">
+      <form action="">
+        <p>CASIO</p>
+        <input type="text" id="screen" />
+        <br />
+        <input class="button1" type="button" id="button" value="7" onclick="btnClick(value)">
+        <input class="button1" type="button" id="button" value="8" onclick="btnClick(value)"/>
+        <input class="button1" type="button" id="button" value="9" onclick="btnClick(value)"/>
+        <input class="operator" type="button" id="button" value="/" onclick="btnClick(value)"/>
+        <br />
+        <input class="button1" type="button" id="button" value="4"onclick="btnClick(value)" />
+        <input class="button1" type="button" id="button" value="5" onclick="btnClick(value)"/>
+        <input class="button1" type="button" id="button" value="6" onclick="btnClick(value)"/>
+        <input class="operator" type="button" id="button" value="*" onclick="btnClick(value)"/>
+        <br />
+        <input class="button1" type="button" id="button" value="1" onclick="btnClick(value)"/>
+        <input class="button1" type="button" id="button" value="2" onclick="btnClick(value)"/>
+        <input class="button1" type="button" id="button" value="3" onclick="btnClick(value)"/>
+        <input class="operator" type="button" id="button" value="+" onclick="btnClick(value)"/>
+        <br />
+        <input class="clear" type="button" id="button" value="C" onclick="clearScreen()"/>
+        <input class="button1" type="button" id="button" value="0" onclick="btnClick(value)"/>
+        <input class="result" type="button" id="button" value="=" onclick="findResult()"/>
+        <input class="operator" type="button" id="button" value="-" onclick="btnClick(value)"/>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
